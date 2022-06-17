@@ -1,5 +1,5 @@
 /**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+ * @author Anik Chowdhury <anikchy.cuet93@gmail.com>
  */
 (function ($) {
     "use strict";
@@ -26,7 +26,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jul 5, 2022 20:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -85,9 +85,9 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+console.log('\n\n%c SAVE THE DATE: 5th July, 2022!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Anik Chowdhury', styles1, styles2);
 
 console.log(
     `%cShaadi me zaroor aana!\n\n`,
